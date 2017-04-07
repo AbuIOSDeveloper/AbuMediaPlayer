@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B59BEA51E977D5D00FFC985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEA41E977D5D00FFC985 /* main.m */; };
+		3B59BEA81E977D5D00FFC985 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEA71E977D5D00FFC985 /* AppDelegate.m */; };
+		3B59BEAB1E977D5D00FFC985 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEAA1E977D5D00FFC985 /* ViewController.m */; };
+		3B59BEAE1E977D5D00FFC985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B59BEAC1E977D5D00FFC985 /* Main.storyboard */; };
+		3B59BEB01E977D5D00FFC985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B59BEAF1E977D5D00FFC985 /* Assets.xcassets */; };
+		3B59BEB31E977D5D00FFC985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B59BEB11E977D5D00FFC985 /* LaunchScreen.storyboard */; };
+		3B59BECD1E977D9700FFC985 /* AbuPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEBD1E977D9700FFC985 /* AbuPlayer.m */; };
+		3B59BECE1E977D9700FFC985 /* VideoTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEC01E977D9700FFC985 /* VideoTask.m */; };
+		3B59BECF1E977D9700FFC985 /* LoadURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEC31E977D9700FFC985 /* LoadURLConnection.m */; };
+		3B59BED01E977D9700FFC985 /* TapGesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEC51E977D9700FFC985 /* TapGesView.m */; };
+		3B59BED11E977D9700FFC985 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BEC81E977D9700FFC985 /* UIDevice+Extension.m */; };
+		3B59BED21E977D9700FFC985 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59BECC1E977D9700FFC985 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B59BEA01E977D5D00FFC985 /* AbuMediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbuMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B59BEA41E977D5D00FFC985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B59BEA61E977D5D00FFC985 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B59BEA71E977D5D00FFC985 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B59BEA91E977D5D00FFC985 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B59BEAA1E977D5D00FFC985 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B59BEAD1E977D5D00FFC985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B59BEAF1E977D5D00FFC985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B59BEB21E977D5D00FFC985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B59BEB41E977D5D00FFC985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B59BEBC1E977D9700FFC985 /* AbuPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbuPlayer.h; sourceTree = "<group>"; };
+		3B59BEBD1E977D9700FFC985 /* AbuPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbuPlayer.m; sourceTree = "<group>"; };
+		3B59BEBF1E977D9700FFC985 /* VideoTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTask.h; sourceTree = "<group>"; };
+		3B59BEC01E977D9700FFC985 /* VideoTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTask.m; sourceTree = "<group>"; };
+		3B59BEC21E977D9700FFC985 /* LoadURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadURLConnection.h; sourceTree = "<group>"; };
+		3B59BEC31E977D9700FFC985 /* LoadURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadURLConnection.m; sourceTree = "<group>"; };
+		3B59BEC41E977D9700FFC985 /* TapGesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGesView.h; sourceTree = "<group>"; };
+		3B59BEC51E977D9700FFC985 /* TapGesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapGesView.m; sourceTree = "<group>"; };
+		3B59BEC71E977D9700FFC985 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		3B59BEC81E977D9700FFC985 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
+		3B59BECB1E977D9700FFC985 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3B59BECC1E977D9700FFC985 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B59BE9D1E977D5D00FFC985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B59BE971E977D5D00FFC985 = {
+			isa = PBXGroup;
+			children = (
+				3B59BEBA1E977D9700FFC985 /* AbuPlayerView */,
+				3B59BEA21E977D5D00FFC985 /* AbuMediaPlayer */,
+				3B59BEA11E977D5D00FFC985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B59BEA11E977D5D00FFC985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEA01E977D5D00FFC985 /* AbuMediaPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B59BEA21E977D5D00FFC985 /* AbuMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEA61E977D5D00FFC985 /* AppDelegate.h */,
+				3B59BEA71E977D5D00FFC985 /* AppDelegate.m */,
+				3B59BEA91E977D5D00FFC985 /* ViewController.h */,
+				3B59BEAA1E977D5D00FFC985 /* ViewController.m */,
+				3B59BEAC1E977D5D00FFC985 /* Main.storyboard */,
+				3B59BEAF1E977D5D00FFC985 /* Assets.xcassets */,
+				3B59BEB11E977D5D00FFC985 /* LaunchScreen.storyboard */,
+				3B59BEB41E977D5D00FFC985 /* Info.plist */,
+				3B59BEA31E977D5D00FFC985 /* Supporting Files */,
+			);
+			path = AbuMediaPlayer;
+			sourceTree = "<group>";
+		};
+		3B59BEA31E977D5D00FFC985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEA41E977D5D00FFC985 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B59BEBA1E977D9700FFC985 /* AbuPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEBB1E977D9700FFC985 /* AbuPlayer */,
+				3B59BEBE1E977D9700FFC985 /* Cache */,
+				3B59BEC11E977D9700FFC985 /* TapGes */,
+				3B59BEC61E977D9700FFC985 /* UIDevice+Extension */,
+				3B59BECA1E977D9700FFC985 /* UIView+Extension */,
+			);
+			path = AbuPlayerView;
+			sourceTree = "<group>";
+		};
+		3B59BEBB1E977D9700FFC985 /* AbuPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEBC1E977D9700FFC985 /* AbuPlayer.h */,
+				3B59BEBD1E977D9700FFC985 /* AbuPlayer.m */,
+			);
+			path = AbuPlayer;
+			sourceTree = "<group>";
+		};
+		3B59BEBE1E977D9700FFC985 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEBF1E977D9700FFC985 /* VideoTask.h */,
+				3B59BEC01E977D9700FFC985 /* VideoTask.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		3B59BEC11E977D9700FFC985 /* TapGes */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEC21E977D9700FFC985 /* LoadURLConnection.h */,
+				3B59BEC31E977D9700FFC985 /* LoadURLConnection.m */,
+				3B59BEC41E977D9700FFC985 /* TapGesView.h */,
+				3B59BEC51E977D9700FFC985 /* TapGesView.m */,
+			);
+			path = TapGes;
+			sourceTree = "<group>";
+		};
+		3B59BEC61E977D9700FFC985 /* UIDevice+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BEC71E977D9700FFC985 /* UIDevice+Extension.h */,
+				3B59BEC81E977D9700FFC985 /* UIDevice+Extension.m */,
+			);
+			path = "UIDevice+Extension";
+			sourceTree = "<group>";
+		};
+		3B59BECA1E977D9700FFC985 /* UIView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B59BECB1E977D9700FFC985 /* UIView+Extension.h */,
+				3B59BECC1E977D9700FFC985 /* UIView+Extension.m */,
+			);
+			path = "UIView+Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B59BE9F1E977D5D00FFC985 /* AbuMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B59BEB71E977D5D00FFC985 /* Build configuration list for PBXNativeTarget "AbuMediaPlayer" */;
+			buildPhases = (
+				3B59BE9C1E977D5D00FFC985 /* Sources */,
+				3B59BE9D1E977D5D00FFC985 /* Frameworks */,
+				3B59BE9E1E977D5D00FFC985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbuMediaPlayer;
+			productName = AbuMediaPlayer;
+			productReference = 3B59BEA01E977D5D00FFC985 /* AbuMediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B59BE981E977D5D00FFC985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "阿布";
+				TargetAttributes = {
+					3B59BE9F1E977D5D00FFC985 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B59BE9B1E977D5D00FFC985 /* Build configuration list for PBXProject "AbuMediaPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B59BE971E977D5D00FFC985;
+			productRefGroup = 3B59BEA11E977D5D00FFC985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B59BE9F1E977D5D00FFC985 /* AbuMediaPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B59BE9E1E977D5D00FFC985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B59BEB31E977D5D00FFC985 /* LaunchScreen.storyboard in Resources */,
+				3B59BEB01E977D5D00FFC985 /* Assets.xcassets in Resources */,
+				3B59BEAE1E977D5D00FFC985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B59BE9C1E977D5D00FFC985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B59BED21E977D9700FFC985 /* UIView+Extension.m in Sources */,
+				3B59BEAB1E977D5D00FFC985 /* ViewController.m in Sources */,
+				3B59BEA81E977D5D00FFC985 /* AppDelegate.m in Sources */,
+				3B59BEA51E977D5D00FFC985 /* main.m in Sources */,
+				3B59BECD1E977D9700FFC985 /* AbuPlayer.m in Sources */,
+				3B59BECE1E977D9700FFC985 /* VideoTask.m in Sources */,
+				3B59BED11E977D9700FFC985 /* UIDevice+Extension.m in Sources */,
+				3B59BECF1E977D9700FFC985 /* LoadURLConnection.m in Sources */,
+				3B59BED01E977D9700FFC985 /* TapGesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B59BEAC1E977D5D00FFC985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B59BEAD1E977D5D00FFC985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B59BEB11E977D5D00FFC985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B59BEB21E977D5D00FFC985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B59BEB51E977D5D00FFC985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B59BEB61E977D5D00FFC985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B59BEB81E977D5D00FFC985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbuMediaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aicai.AbuMediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B59BEB91E977D5D00FFC985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbuMediaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aicai.AbuMediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B59BE9B1E977D5D00FFC985 /* Build configuration list for PBXProject "AbuMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B59BEB51E977D5D00FFC985 /* Debug */,
+				3B59BEB61E977D5D00FFC985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B59BEB71E977D5D00FFC985 /* Build configuration list for PBXNativeTarget "AbuMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B59BEB81E977D5D00FFC985 /* Debug */,
+				3B59BEB91E977D5D00FFC985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B59BE981E977D5D00FFC985 /* Project object */;
+}
